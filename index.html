@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>City Explorer</h1>
+        <nav>
+            <ul>
+                <li><a href="#destinatii">Destinații</a></li>
+                <li><a href="#planifica">Planifică</a></li>
+                <li><a href="#recomandari">Recomandări</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destinatii">
+            <h2>Destinații</h2>
+            <div class="grid-container">
+                <article class="card">
+                    <h3>Lisabona</h3>
+                    <p><strong>Țara:</strong> Portugalia</p>
+                    <p>Un oraș plin de viață, renumit pentru pasteis de nata și tramvaiul 28.</p>
+                    <p><em>Durată recomandată: 4 zile</em></p>
+                </article>
+                
+                <article class="card featured">
+                    <h3>Roma</h3>
+                    <p><strong>Țara:</strong> Italia</p>
+                    <p>Orașul etern, un muzeu în aer liber cu istorie la fiecare pas.</p>
+                    <p><em>Durată recomandată: 5 zile</em></p>
+                </article>
+                
+                <article class="card">
+                    <h3>Tokyo</h3>
+                    <p><strong>Țara:</strong> Japonia</p>
+                    <p>Metropolă vibrantă unde tradiția se îmbină cu tehnologia de ultimă oră.</p>
+                    <p><em>Durată recomandată: 7 zile</em></p>
+                </article>
+                
+                <article class="card">
+                    <h3>Barcelona</h3>
+                    <p><strong>Țara:</strong> Spania</p>
+                    <p>Arhitectura lui Gaudi, plaje frumoase și tapas delicioase.</p>
+                    <p><em>Durată recomandată: 5 zile</em></p>
+                </article>
+                
+                <article class="card">
+                    <h3>Paris</h3>
+                    <p><strong>Țara:</strong> Franța</p>
+                    <p>Orașul luminilor, faimos pentru Turnul Eiffel și croaziere pe Sena.</p>
+                    <p><em>Durată recomandată: 4 zile</em></p>
+                </article>
+            </div>
+        </section>
+
+        <section id="planifica">
+            <h2>Planifică excursia</h2>
+            <form action="#" method="GET">
+                <label for="name">Nume</label>
+                <input id="name" name="name" type="text" placeholder="Introdu numele tău">
+
+                <label for="destination">Destinație</label>
+                <select id="destination" name="destination">
+                    <option value="">Alege...</option>
+                    <option value="Lisabona">Lisabona</option>
+                    <option value="Roma">Roma</option>
+                    <option value="Tokyo">Tokyo</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Paris">Paris</option>
+                </select>
+
+                <label for="days">Număr de zile</label>
+                <input id="days" name="days" type="number" min="1">
+
+                <button type="submit">Planifică excursia</button>
+            </form>
+        </section>
+
+        <section id="recomandari">
+            <h2>Recomandări și sfaturi</h2>
+            <ul>
+                <li>Cumpără bilete online în avans pentru atracțiile majore pentru a evita cozile.</li>
+                <li>Păstrează mereu o baterie externă la tine pentru telefon și aparatul foto.</li>
+                <li>Învață câteva cuvinte de bază în limba locală (ex: „Mulțumesc”, „Bună ziua”).</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Buzatel Luca-Gabriel</p>
+    </footer>
+</body>
+</html>
